@@ -1,7 +1,9 @@
 import pandas as pd
 
-data = pd.read_excel('std.xlsx')
+dataset = pd.read_excel('std.xlsx')
 
-data['score'] +=1
+dataset['score'] +=1
 
-print(data)
+print(dataset)
+
+dataset.to_csv('std.csv')
