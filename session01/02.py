@@ -9,5 +9,5 @@ plt.barh(days,company_1,color = 'red',label = 'company_1')
 plt.xlabel('sells')
 plt.ylabel('days')
 plt.legend()
-plt.grid(True)
+
 plt.show()
